@@ -1,11 +1,4 @@
-'''
-Chapter 1: Introduction to Algorithms
-'''
-
-
 def binary_search(items, item):
-    '''Returns the index of the item if found, or None if not found.'''
-
     # low and high keep track of which part of the list you'll search in.
     low = 0
     high = len(items) - 1
