@@ -11,6 +11,8 @@ def findSmallest(arr):
     return smallest_index
 
 # Sort array
+
+
 def selectionSort(arr):
     newArr = []
     for i in range(len(arr)):
